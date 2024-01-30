@@ -1,0 +1,409 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+header
+{
+    width: 100%;
+    height: 295px;
+    background-image: linear-gradient(135deg,rgb(39, 10, 67) 0%,rgb(42, 20, 86) 100%);
+    position: relative;
+}
+
+.headleft
+{
+    position: absolute;
+    width: 550px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+.headleft>img
+{
+    position: absolute;
+    width: 150px;
+    height: auto;
+    left: 20px;
+    top: 40px;
+}
+.headleft>.header_text
+{
+    position: absolute;
+    left: 200px;
+    top: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.headright
+{
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    width: 900px;
+    height: 250px;
+}
+.headright>.header_text2>img
+{
+    width: 300px;
+    position: absolute;
+    left: 430px;
+    bottom: 90px;
+}
+.headright>.header_text2
+{
+    color: white;
+    font-size: x-large;
+    font-style: italic;
+    position: absolute;
+    top: 20px;
+}
+.headright>.header_text2 span
+{
+    font-size: 40px;
+}
+
+nav
+{
+    height: 45px;
+    background-color: rebeccapurple;
+    position: relative;
+    top: 250px;
+}
+.bannernews
+{
+    height: 45px;
+    background-color: red;
+}
+.bannernews marquee
+{
+    height: 45px;
+}
+.bannernews .list
+{
+    margin: 0;
+}
+.bannernews .list li 
+{
+    display: inline-block;
+    margin-right: 30px;
+    list-style: none;
+    line-height: 45px;
+}
+.bannernews .list li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.bannerlabel
+{
+    line-height: 45px;
+    height: 45px;
+    background-color: brown;
+    color: white;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    font-size: large;
+}
+.bannerlabel .text_bannerlabel
+{
+    text-align: center;
+}
+
+.menu
+{
+    background-color: white;
+    height: 55px ;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.menu_list
+{
+    margin: 0;
+    padding: 0;
+    height: 55px;
+    width: 100%;
+    text-align: center;
+}
+.menu_list li
+{
+    display: inline-block;
+    list-style: none;
+    line-height: 55px;
+    margin-right: 15px;
+}
+.menu_list li img
+{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 8px;
+}
+.menu_list li a
+{
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 26, 148);
+}
+.menu_list li a:hover
+{
+    color: red;
+}
+
+.menu_list li:hover .items_gioithieu
+{
+    display: block;
+}
+
+.menu_list li:hover .items_tintuc
+{
+    display: block;
+}
+
+.menu_list li:hover .items_hoatdong
+{
+    display: block;
+}
+
+.items_gioithieu
+{
+    display: none;
+    padding: 0;
+    position: absolute;
+    width: 300px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 5px 10px grey;
+}
+.items_gioithieu li
+{
+    margin: 0px 10px 0px 15px;
+}
+.items_gioithieu li a
+{
+    font-size: 15px;
+    color: rgb(84, 25, 247);
+}
+
+.items_tintuc
+{
+    display: none;
+    padding: 0;
+    position: absolute;
+    width: 250px;
+    height: auto;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 5px 10px grey;
+}
+.items_tintuc li
+{
+    margin: 0px 10px 0px 15px;
+}
+.items_tintuc li a
+{
+    font-size: 15px;
+    color: rgb(84, 25, 247);
+}
+
+.items_hoatdong
+{
+    display: none;
+    padding: 0;
+    position: absolute;
+    width: 250px;
+    height: auto;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 5px 10px grey;
+}
+.items_hoatdong li
+{
+    margin: 0px 10px 0px 15px;
+}
+.items_hoatdong li a
+{
+    font-size: 15px;
+    color: rgb(84, 25, 247);
+}
+
+/* Containner */
+.containner
+{
+    width: 100%;
+    height: 1000px;
+}
+.containner_header
+{
+    width: 100%;
+    height: 200px;
+    background-image: url(../IMG/tochuc-bg.jpg);
+    background-position: center;
+
+}
+.containner_header .containner_text
+{
+    color: white;
+    font-size: 50px;
+    line-height: 200px;
+    margin-left: 200px;
+    margin-top: 0 ;
+}
+.containner_body
+{
+    display: flex;
+    padding: 80px 100px;
+    justify-content: center;
+
+}
+.containner_bodyleft
+{
+    text-align: left;
+    width: 260px;
+    height: auto;
+    margin-right: 5px ;
+    margin-bottom: 0px;
+    /* background-color: black; */
+}
+.containner_bodyleft a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containner_bodyleft a:hover
+{
+
+    color: red;
+}
+
+.containner_bodyright
+{
+    text-align: left;
+    width: 60%;
+    height: 600px;
+    /* background-color: rgb(149, 43, 43); */
+}
+.containner_bodyright .image
+{
+    height: 200px;
+}
+.containner_bodyright h2
+{
+    font-weight: normal;
+}
+.infor_bangiamhieu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.infor_bangiamhieu span
+{
+    font-size: larger;
+    color: rgb(86, 81, 81);
+}
+.infor_teacher1, .infor_teacher2, .infor_teacher3,.infor_teacher4, .infor_teacher5, .infor_teacher6
+{
+    border: 1px solid rgb(172, 169, 169);
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 150px;
+}
+.infor_teacher5 .image
+{
+    /* width: 150px; */
+}
+
+.infor_teacher1:hover, .infor_teacher2:hover, .infor_teacher3:hover, .infor_teacher4:hover, .infor_teacher5:hover, .infor_teacher6:hover
+{
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.275);
+    
+}
+
+
+
+footer
+{
+    height: 550px;
+    background-color: aquamarine;
+    background-image: url(../IMG/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card__infor1
+{
+    color: white;
+    flex-basis: 20%;
+    padding: 12px 16px;
+}
+.card__infor2
+{
+    color: #fff;
+    flex-basis: 20%;
+    padding: 12px 16px;
+}
+.card__infor3
+{
+    color: #fff;
+    flex-basis: 50%;
+    padding: 12px 16px;
+}
+.form_row
+{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+.form_input
+{
+    cursor: pointer;
+    margin-top: 6px;
+    padding: 0;
+    border: none;
+    height: 26px;
+    background-color: rgba(7, 7, 81, 0.9);
+    color: white;
+    font-size: large;
+}
+.form_label
+{
+    margin-top: 6px;
+}
+#submit
+{
+    height: 40px;
+    padding:10px 30px 10px 30px;
+    background-color: none;
+    border-radius: 20px;
+}
+#submit:hover
+{
+    background-color: white;
+    color: rgb(7, 7, 81);
+}
+.form_textarea
+{
+    cursor: pointer;
+    border: none;
+    margin-top: 6px;
+    background-color: rgba(7, 7, 81, 0.9);
+    color: white;
+    font-size: large;
+}
