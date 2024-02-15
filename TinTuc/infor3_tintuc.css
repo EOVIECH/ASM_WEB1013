@@ -330,22 +330,23 @@ nav
 }
 
 #scrollToTopBtn {
-    display: block;
+    display: none;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #16243300;
+    background-color: rgb(61, 60, 60);
     color: #fff;
     border: none;
-    border-radius: 5px;
-    padding: 10px 8px;
+    padding: 8px 6px;
     cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    scroll-behavior: smooth;
+
 }
-#scrollToTopBtn a i
-{
-    color: red;
-    font-size: 20px;
-} 
+#scrollToTopBtn:hover {
+    background-color: rgb(146, 7, 7);
+  }
+
 
  /* Footer  */
 footer
